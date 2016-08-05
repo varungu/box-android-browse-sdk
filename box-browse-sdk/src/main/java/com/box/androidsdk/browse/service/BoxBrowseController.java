@@ -91,8 +91,8 @@ public class BoxBrowseController implements BrowseController {
         }
         try {
             return mFileApi.getDownloadThumbnailRequest(downloadFile, fileId)
-                    .setMinWidth(thumbSize)
-                    .setMinHeight(thumbSize);
+                    .setMinWidth(1024)
+                    .setMinHeight(1024);
         } catch (IOException e) {
             BoxLogUtils.e(TAG, e);
         }

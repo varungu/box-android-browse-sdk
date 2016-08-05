@@ -250,7 +250,7 @@ public class ThumbnailManager {
      * @param targetImage
      */
     public void loadThumbnail(final BoxItem item, final ImageView targetImage) {
-        targetImage.setScaleType(ImageView.ScaleType.FIT_CENTER);
+        //targetImage.setScaleType(ImageView.ScaleType.FIT_CENTER);
         if (item instanceof BoxFile
                 && item.getPermissions() != null
                 && item.getPermissions().contains(BoxItem.Permission.CAN_PREVIEW)

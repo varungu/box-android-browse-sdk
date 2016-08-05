@@ -5,8 +5,8 @@
     style="@style/BoxListItem"
     android:orientation="horizontal">
     <FrameLayout
-        android:layout_width="@dimen/box_browsesdk_thumb_width"
-        android:layout_height="@dimen/box_browsesdk_thumb_width"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:paddingLeft="@dimen/box_browsesdk_thumb_padding"
         android:paddingRight="@dimen/box_browsesdk_thumb_padding"
         android:layout_marginLeft="@dimen/box_browsesdk_horizontal_margin"
@@ -14,9 +14,9 @@
         <ImageView
             android:id="@+id/box_browsesdk_thumb_image"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_gravity="center"
-            android:scaleType="fitCenter"
+            android:scaleType="fitXY"
             />
         <ProgressBar
             android:id="@+id/spinner"
